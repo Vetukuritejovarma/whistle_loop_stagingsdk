@@ -8,7 +8,7 @@ class MockWhistleLoopStagingsdkPlatform
     with MockPlatformInterfaceMixin
     implements WhistleLoopStagingsdkPlatform {
 
-  @override
+
   Future<String?> getPlatformVersion() => Future.value('42');
 
   @override
@@ -35,11 +35,7 @@ class MockWhistleLoopStagingsdkPlatform
     throw UnimplementedError();
   }
 
-  @override
-  Future<Map<String, String>> getTimeAndDate() {
-    // TODO: implement getTimeAndDate
-    throw UnimplementedError();
-  }
+
 
   @override
   Future<String?> getpac() {

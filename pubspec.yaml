@@ -14,12 +14,14 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  plugin_platform_interface:
-  package_info_plus:
-  device_info_plus:
-  advertising_id:
-  get_ip_address:
-  connectivity_plus:
+  http: ^0.13.3
+  logging: ^1.0.2
+  plugin_platform_interface: ^2.1.7
+  package_info_plus: ^1.4.3+1
+  device_info_plus: ^8.2.2
+  advertising_id: ^2.6.0
+  get_ip_address: ^0.0.5
+  connectivity_plus: ^5.0.2
 
 
 

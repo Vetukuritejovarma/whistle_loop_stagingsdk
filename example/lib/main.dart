@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whistle_loop_stagingsdk/Whitle_loop_pixel_fire.dart';
-import 'package:whistle_loop_stagingsdk/whistle_loop_stagingsdk.dart';
+import 'package:whistle_loop_stagingsdk/whistle_loop_pixel_fire.dart';
 
 void main() {
   runApp(MyApp());
