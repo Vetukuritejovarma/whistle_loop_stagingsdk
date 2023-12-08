@@ -10,6 +10,60 @@ class MockWhistleLoopStagingsdkPlatform
 
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
+
+  @override
+  Future<String?> getConnectionType() {
+    // TODO: implement getConnectionType
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<String?> getDeviceType() {
+    // TODO: implement getDeviceType
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<String?> getIP() {
+    // TODO: implement getIP
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<String?> getPlatform() {
+    // TODO: implement getPlatform
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<Map<String, String>> getTimeAndDate() {
+    // TODO: implement getTimeAndDate
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<String?> getpac() {
+    // TODO: implement getpac
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<String?> initDeviceId() {
+    // TODO: implement initDeviceId
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<String> getDate() {
+    // TODO: implement getDate
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<String> getTime() {
+    // TODO: implement getTime
+    throw UnimplementedError();
+  }
 }
 
 void main() {
